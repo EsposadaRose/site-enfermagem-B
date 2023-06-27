@@ -1,3 +1,7 @@
+body {
+  padding: 0;
+}
+
 /*CAROUSEL (N SEI COMO ESCREVE EM PT)*/
 .imgs-carousel {
     height: 30em;
