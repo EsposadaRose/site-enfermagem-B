@@ -1,0 +1,168 @@
+/*CAROUSEL (N SEI COMO ESCREVE EM PT)*/
+.imgs-carousel {
+    height: 30em;
+}
+
+/*BOTÃO DE PESQUISA*/
+.botao-de-pesquisa {
+    border: 0;
+    background-color: #770000;
+    transition: 1s;
+    border-radius: 20px;
+    color: #fff;
+}
+.botao-de-pesquisa:hover {
+    border: 0;
+    background-color: #F2A7A7;
+    border-radius: 0;
+}
+
+/*TEXTOS*/
+.centro-justificado {
+    text-align: justify;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.justificado {
+    text-align: justify;
+}
+
+/*CARD*/
+.card {
+    width: auto;
+    height: 100%;
+}
+
+/*BOTÃO MODAL*/
+.botao-do-modal {
+    border: 0;
+    background-color: #770000;
+    transition: 1s; 
+    border-radius: 20px;
+    color: #fff;
+}
+.botao-do-modal:hover {
+    border: 0;
+    background-color: #F2A7A7;
+    border-radius: 0;
+    color: #fff;
+}
+.botao-deslocado {
+    margin-top: 20px;
+}
+.iframe {
+    width: 900px;
+    height: 500px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(63, 61, 61, 0.4);
+    margin-left: auto;
+    margin-right: auto;
+}
+p {
+    text-align: center; 
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: #333; 
+  }
+  h2 {
+    text-align: center; 
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 36px; 
+    color: #333; 
+  }
+  .navbar { 
+    background-color: #499FA4;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #F0FFF0;
+    color: white;
+}
+  .box {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 15px;
+    border-radius: 15px;
+    width: 40%;
+}
+  .inputBox {
+    position: relative;
+}
+.inputUser {
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+}
+.labelInput {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+}
+.inputUser:focus~.labelInput,
+.inputUser:valid~.labelInput {
+    top: -20px;
+    font-size: 15px;
+    color: dodgerblue;
+}
+.table {
+    border: 1px solid #000;
+    border-collapse: collapse;
+    width: 100%;
+    margin: auto;
+  }
+  .table th,
+  .table td {
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: justify;
+  }
+  .table th {
+    background-color: #f2f2f2;
+  }
+  .table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  .table th {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #000;
+  }
+  .table td {
+    font-family: 'Times New Roman', Times, serif;
+    color: #555;
+  }
+h5 {
+    text-align: justify; 
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 20px; 
+    color: #333; 
+}
+.figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .figure-img {
+    width: 20%;
+    height: auto;
+  }
+  .figure-caption {
+    text-align: center;
+    margin-top: 10px;
+  }

@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="Enfermagem-símbolo(png).png">
+  <title>Guia sobre Enfermagem</title>
+</head>
+<body>
+  <nav class="navbar col-12 position-fixed navbar-expand-lg mb-5 navbar" style="z-index: 999;">
+    <div class="container-fluid col-11 m-auto">
+      <img src="Enfermagem-símbolo(png).png" alt="Logotipo" width="100px" height="50px">
+      <a class="navbar-brand" href="index.html">Enfermagem</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="PSeV.html">Primeiros Socorros<br>e Valorização</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="FAeM.html">Formação Acadêmica<br>e Mercado</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="Recursos.html-Curiosidades.html-Vejamais.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Outros<br>Tópicos
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="Recursos.html">Recursos</a></li>
+              <li><a class="dropdown-item" href="Curiosidades.html">Curiosidades</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="Vejamais.html">Veja mais</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+          </li>
+        </ul>
+        <form class="d-flex" role="search" action="https://google.com/search" target="_blank" type="GET">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success botao-de-pesquisa" type="submit">Pesquisa</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <br><br><br>
+  <div id="carouselExampleIndicators" class="carousel slide mb-5">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="Carousel(3).jpg" class="d-block w-100 imgs-carousel" alt="">
+            </div>
+            <div class="carousel-item">
+              <img src="Carousel(2).jpg" class="d-block w-100 imgs-carousel" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="Carousel(1).jpg" class="d-block w-100 imgs-carousel" alt="...">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div class="row row-cols-1 row-cols-md-3 g-4 col-11 m-auto mb-3">
+    <div class="col">
+      <div class="card">
+        <img src="doenças.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Doenças</h5>
+          <p class="card-text justificado mb-3">
+            As doenças podem ser causadas por diversos fatores, incluindo infecções virais, bacterianas, doenças crônicas, genéticas, entre outros. A prevenção é uma parte crucial do cuidado de saúde e pode envolver várias medidas.
+          </p>
+          <button type="button" class="btn btn-primary botao-deslocado botao-do-modal" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Veja mais
+          </button>
+
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Prevenções</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="prevenções.png" class="card-img-top" alt="">
+                  <br>
+                  <p class="justificado">
+                    Vacinação: As vacinas são uma forma eficaz de prevenir doenças infecciosas, estimulando o sistema imunológico a desenvolver proteção contra patógenos.
+                    <br>
+                    <br>
+                    Higiene pessoal: A lavagem adequada das mãos, uso de álcool em gel, práticas de higiene bucal, cuidados com a pele e cabelos ajudam a prevenir a propagação de doenças infecciosas.
+                    <br>
+                    <br>
+                    Alimentação saudável: Uma dieta equilibrada, rica em frutas, vegetais, grãos integrais e baixa em gorduras saturadas, pode ajudar a prevenir doenças crônicas, como doenças cardíacas, diabetes e obesidade.
+                    <br>
+                    <br>
+                    Exercícios físicos: A prática regular de atividades físicas contribui para a saúde cardiovascular, fortalecimento dos ossos, controle de peso e prevenção de doenças crônicas.
+                    <br>
+                    <br>
+                    Uso de preservativos: O uso correto e consistente de preservativos ajuda a prevenir a transmissão de doenças sexualmente transmissíveis (DSTs), como HIV, sífilis, gonorreia, entre outras.
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="remedios.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Remédios</h5>
+          <p class="card-text justificado mb-3">
+            Os remédios têm sido usados há milhares de anos para tratar doenças e aliviar os sintomas. Ao longo da história, houve avanços significativos na descoberta e desenvolvimento de remédios, levando ao surgimento da farmacologia moderna.
+          </p>
+          <button type="button" class="btn btn-primary botao-deslocado botao-do-modal" data-bs-toggle="modal" data-bs-target="#exampleModa">
+            Veja mais
+          </button>
+
+          <div class="modal fade" id="exampleModa" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Origens</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="origem.jpg" class="card-img-top mb-3" alt="">
+
+                  <p class="justificado">
+                    Plantas medicinais: Muitos remédios têm origem em plantas medicinais. A fitoterapia utiliza extratos vegetais para tratar doenças.
+                    <br>
+                    <br>
+                    Produtos químicos: Compostos químicos sintéticos são usados para desenvolver medicamentos. A pesquisa farmacêutica identifica moléculas que têm propriedades terapêuticas e as sintetiza em laboratório.
+                    <br>
+                    <br>
+                    Medicina tradicional: Em várias culturas, a medicina tradicional usa conhecimentos ancestrais para tratar doenças.
+                    <br>
+                    <br>
+                    Biotecnologia: Avanços na biotecnologia permitiram o desenvolvimento de medicamentos com base em proteínas e terapias genéticas, como a terapia gênica.
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="vacinas.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Vacinas</h5>
+          <p class="card-text justificado mb-3">
+            As vacinas são produtos biológicos que estimulam o sistema imunológico a reconhecer e combater agentes infecciosos, como vírus e bactérias, prevenindo doenças e protegendo a saúde humana. 
+          </p>
+
+          <button type="button" class="btn btn-primary botao-deslocado botao-do-modal" data-bs-toggle="modal" data-bs-target="#exampleModaa">
+            Veja mais 
+          </button>
+
+          <div class="modal fade" id="exampleModaa" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Importância</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="importância.jpg" class="card-img-top mb-2" alt="">
+                  <p class="justificado">
+                    Prevenção de doenças: As vacinas são eficazes na prevenção de doenças infecciosas. Elas ajudaram a erradicar ou controlar doenças como poliomielite, varíola, sarampo, entre outras.
+                    <br>
+                    <br>
+                    Proteção coletiva (imunidade de rebanho): Quando um número suficiente de pessoas é vacinado contra uma doença, ocorre uma redução na sua disseminação, protegendo inclusive aqueles que não podem ser vacinados devido a condições médicas.
+                    <br>
+                    <br>
+                    Redução de complicações e mortes: As vacinas podem diminuir a gravidade das doenças e reduzir as complicações e mortes associadas a elas.
+                    <br>
+                    <br>
+                    Segurança e eficácia: As vacinas passam por rigorosos testes de segurança e eficácia antes de serem aprovadas para uso público. Os benefícios superam os riscos associados às vacinas.
+                    <br>
+                    <br>
+                    Avanços na saúde pública: A vacinação em massa teve um impacto significativo na saúde pública ao longo da história, salvando milhões de vidas e contribuindo para o aumento da expectativa de vida.
+
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-11 m-auto mt-4">
+    <h2 class="text-center mb-2">Enfermagem e seus aspectos</h2>
+    <p class="centro-justificado mt-5" style="margin-left: 200px; margin-right: 200px;"> 
+        A enfermagem é uma área da saúde dedicada ao cuidado, promoção, prevenção e reabilitação da saúde das pessoas, famílias e comunidades. Os profissionais de enfermagem desempenham um papel fundamental nos sistemas de saúde, trabalhando em estreita colaboração com médicos, outros profissionais de saúde e pacientes para fornecer cuidados abrangentes e de alta qualidade.
+        <br>
+        <br>
+        Aqui está uma pesquisa completa sobre enfermagem, abordando diversos aspectos da profissão:
+        <br>
+        <br>
+        1. História da Enfermagem: A história da enfermagem remonta a tempos antigos, com registros de cuidados de enfermagem realizados por diferentes culturas ao longo da história. Florence Nightingale é considerada a pioneira da enfermagem moderna, com sua contribuição durante a Guerra da Crimeia no século XIX.
+        <br>
+        <br>
+        2. Papel do Enfermeiro: Os enfermeiros desempenham diversas funções, incluindo o cuidado direto ao paciente, o planejamento e gerenciamento dos cuidados, a coordenação da equipe de saúde, a educação do paciente e da comunidade, a pesquisa e a defesa da saúde. O papel do enfermeiro pode variar de acordo com o contexto de trabalho, que pode ser em hospitais, clínicas, unidades de saúde comunitárias, escolas, empresas e outras instituições de saúde.
+        <br>
+        <br>
+        3. Educação em Enfermagem: A formação em enfermagem abrange diferentes níveis de educação, desde programas de auxiliar de enfermagem até programas de graduação e pós-graduação em enfermagem. Os enfermeiros podem obter diplomas, bacharelados, mestrados e doutorados em enfermagem, dependendo do nível de especialização desejado. A educação em enfermagem combina conhecimentos teóricos com treinamento prático em ambientes clínicos.
+        <br>
+        <br>
+        4. Especialidades de Enfermagem: A enfermagem abrange uma ampla gama de especialidades, permitindo que os enfermeiros se concentrem em áreas específicas de cuidados de saúde. Algumas especialidades comuns incluem enfermagem pediátrica, enfermagem obstétrica, enfermagem geriátrica, enfermagem de cuidados intensivos, enfermagem psiquiátrica, enfermagem comunitária, enfermagem de emergência e enfermagem de saúde pública.
+        <br>
+        <br>
+        5. Processo de Enfermagem: O processo de enfermagem é uma abordagem sistemática utilizada pelos enfermeiros para fornecer cuidados individualizados e baseados em evidências. Consiste em cinco etapas: avaliação, diagnóstico, planejamento, implementação e avaliação. Esse processo auxilia os enfermeiros a identificarem as necessidades dos pacientes, estabelecerem metas de cuidados, implementarem intervenções apropriadas e avaliarem os resultados obtidos.
+        <br>
+        <br>
+        6. Ética e Princípios em Enfermagem: A ética desempenha um papel crucial na enfermagem. Os enfermeiros são orientados por princípios éticos, como respeito à autonomia do paciente, beneficência, não maleficência, justiça e veracidade. Eles devem garantir a confidencialidade dos pacientes, respeitar a diversidade cultural, informar adequadamente os pacientes sobre seus direitos e tomar decisões éticas em situações complexas.
+        <br>
+        <br>
+        7. Pesquisa em Enfermagem: A pesquisa em enfermagem é fundamental para avançar o conhecimento científico e melhorar a prática de cuidados de enfermagem. Ela abrange uma variedade de tópicos, como eficácia de intervenções de enfermagem, qualidade dos cuidados, gestão de doenças crônicas, promoção da saúde, educação em saúde, políticas de saúde e muito mais. A pesquisa em enfermagem pode envolver metodologias quantitativas, qualitativas ou mistas, dependendo das questões de pesquisa e dos objetivos do estudo.
+        <br>
+        <br>
+        8. Desafios e Tendências na Enfermagem: A enfermagem enfrenta desafios e tendências em constante evolução. Alguns desafios incluem escassez de profissionais de enfermagem, carga de trabalho elevada, estresse ocupacional, falta de recursos, avanços tecnológicos, demanda crescente por cuidados de saúde e mudanças nas políticas de saúde. Tendências incluem avanços em tecnologia de saúde, prática baseada em evidências, cuidados centrados no paciente, colaboração Inter profissional e ênfase na prevenção e promoção da saúde.
+        <br>
+        <br>
+        Essa pesquisa abrange uma visão geral dos principais aspectos da enfermagem. É importante ressaltar que a enfermagem é uma profissão dinâmica, em constante evolução, e que novas pesquisas e avanços continuam a moldar o campo.
+        </p>
+  </div>
+  <br><br>
+  <div class="col-11 m-auto">
+    <h2 class="text-center">Símbolo usado pela enfermagem</h2>
+    <p class="centro-justificado mt-5 mb-5" style="margin-left: 200px; margin-right: 200px;">
+        A história por trás do símbolo da enfermagem, que combina uma lâmpada de óleo, uma cruz vermelha e uma serpente, remonta à Antiguidade e está associada à figura de Asclépio, o deus grego da medicina e da cura. Vou contar essa história em detalhes para você:
+        <br>
+        <br>
+        1. Asclépio e a serpente: Asclépio era filho de Apolo, o deus grego do sol, da cura e da luz, e de uma mortal chamada Coronis. Acredita-se que ele tenha aprendido as habilidades de cura e medicina com o centauro Quíron. Segundo a mitologia, Asclépio possuía grande habilidade em tratar e curar doenças, e sua associação com a serpente se originou de uma história em que ele usou uma serpente para realizar uma cura milagrosa.
+        <br>
+        <br>
+        2. O bastão de Asclépio: Asclépio costumava carregar um bastão com uma serpente enrolada nele, conhecido como bastão de Asclépio. Acredita-se que essa representação simbolizasse sua capacidade de trazer cura e alívio aos doentes. O bastão de Asclépio, com a serpente enrolada, passou a ser um símbolo amplamente reconhecido de medicina e cura.
+        <br>
+        <br>
+        3. Florence Nightingale e a lâmpada de óleo: A lâmpada de óleo foi adicionada ao símbolo da enfermagem em homenagem a Florence Nightingale, uma enfermeira britânica pioneira que ficou conhecida como "A Dama da Lâmpada". Durante a Guerra da Crimeia, no século XIX, Florence Nightingale prestou cuidados de enfermagem aos soldados feridos durante a noite, carregando uma lâmpada de óleo para iluminar seu caminho e cuidar dos pacientes. A lâmpada de óleo tornou-se um símbolo do cuidado e dedicação dos enfermeiros.
+        <br>
+        <br>
+        4. A cruz vermelha: A cruz vermelha é um símbolo amplamente utilizado para representar assistência médica e humanitária. A cruz vermelha na enfermagem foi incorporada como uma referência ao Movimento Internacional da Cruz Vermelha e do Crescente Vermelho, que desempenha um papel crucial no fornecimento de assistência médica e ajuda humanitária em todo o mundo.
+        <br>
+        <br>
+        A combinação da lâmpada de óleo, a cruz vermelha e a serpente formam o símbolo da enfermagem, representando o conhecimento, a cura, o cuidado e a dedicação dos profissionais de enfermagem em ajudar os outros a alcançar a saúde e o bem-estar. Esse símbolo é amplamente reconhecido e utilizado em todo o mundo para identificar e representar a enfermagem como uma profissão essencial no campo da saúde.
+    </p>
+  </div>
+  <br>
+  <div class="col-11 m-auto">
+    <h2 class="text-center mt-5">Enfermagem: Tudo o que você precisa saber sobre a profissão!</h2>
+    <p class="centro-justificado mt-5"></p>
+  <div class="ratio ratio-16x9 mt-2 mb-5 iframe">
+    <iframe src="https://www.youtube.com/embed/aJIekSYqGuw" frameborder="0" allow="accelerometer autoplay encrypted-media gyroscope picture-in-picture" allowfullscreen></iframe>
+  </div>
+  <br>
+  <footer class="page-footer font-small blue p-5">
+    <div class="text-center">
+      <a href="">© 2023 Copyright: Código Front end</a>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+</body>
+</html>
